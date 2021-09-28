@@ -1,0 +1,192 @@
+body {
+    margin: 0;
+    text-align: center;
+    background-color: #fcefef;
+    font-family: 'Merriweather', serif;
+}
+h1{
+    margin: 50px auto 0 auto;
+    line-height: 2;
+    font-family: 'Sacramento', cursive;
+    font-size: 5.625rem;   
+    color: #679B9B;
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.8rem;
+    color: #679B9B;
+    font-weight: normal;
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+    color: #AACFCF;
+    
+}
+a{
+    color: #AACFCF;
+}
+
+.top-container{
+    background-color: #AACFCF;
+    padding-top: 130px;
+    margin-bottom: 100px;
+    position: relative;
+}
+
+.top-cloud{
+    width: 220px;
+    position: absolute;
+    right: 350px;
+    top:100px ;
+}
+.bottom-cloud{
+    width: 180px;
+    position: absolute;
+    left: 300px;
+    bottom: 270px  
+}
+.head-image{
+    margin-top: 60px auto 0 auto;
+    width: 50%;    
+}
+.profile p{
+    line-height: 2;
+}
+.profile img{
+    width: 250px;
+}
+.skill-row-left{
+    width: 50%;
+    margin: 70px auto;/*بما اننا نريد ان نجعل العرض 50 بالمية فان التوسيط لن يتم تطبيقه الا بتعيين المارجن على وضع الاوتو*/
+    text-align: left;
+    line-height: 2;
+    clear: both;
+}
+.skill-row-right-top{
+    width: 50%;
+    margin: 70px auto;/*بما اننا نريد ان نجعل العرض 50 بالمية فان التوسيط لن يتم تطبيقه الا بتعيين المارجن على وضع الاوتو*/
+    text-align: right;
+    line-height: 2;
+    clear: both;
+}
+.skill-row-right-bottom{
+    width: 50%;
+    margin: 50px auto 0 auto;/*بما اننا نريد ان نجعل العرض 50 بالمية فان التوسيط لن يتم تطبيقه الا بتعيين المارجن على وضع الاوتو*/
+    text-align: right;
+    line-height: 2;
+    clear: both;
+}
+.skills-img-left{
+    width: 20%;
+    float: left;
+    margin-right: 30px;
+}
+.skills-img-right{
+    width: 20%;
+    float: right;
+    margin-left: 30px;
+}
+.skill-row-left h3{
+    margin-bottom: 0;
+}
+.skill-row-left p{
+    margin-top: 0;
+}
+.skill-row-right-bottom h3{
+    margin-bottom: 0;
+}
+.skill-row-right-bottom p{
+    margin-top: 0;
+}
+.skill-row-right-top h3{
+    margin-bottom: 0;
+}
+.skill-row-right-top p{
+    margin-top: 0;
+}
+hr{
+    border: none;
+    border-top-style: dotted;
+    border-color: #dbd5b8;
+    width: 4%;
+    border-width: 7px;
+    height: 0px;
+    margin: 70px auto;
+}
+.contact-me{
+    margin: 100px auto 50px auto;
+}
+.contact-me button{
+    margin: 0;
+    padding: 0;
+    border: none;
+    background: none;
+    margin: 50px;
+}
+/****************************button style**********************************/
+.btn {
+    background: #679B9B;
+    background-image: -webkit-linear-gradient(top, #679B9B, #AACFCF);
+    background-image: -moz-linear-gradient(top, #679B9B, #AACFCF);
+    background-image: -ms-linear-gradient(top, #679B9B, #AACFCF);
+    background-image: -o-linear-gradient(top, #679B9B, #AACFCF);
+    background-image: -webkit-gradient(to bottom, #679B9B, #AACFCF);
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    border-radius: 12px;
+    height: 0;
+    line-height: 0;
+    color: #FDE2E2;
+    font-family: Verdana;
+    width: 150px;
+    font-size: 15px;
+    font-weight: 100;
+    padding: 22px;
+    -webkit-box-shadow: 1px 1px 20px 0 #569696;
+    -moz-box-shadow: 1px 1px 20px 0 #569696;
+    box-shadow: 1px 1px 20px 0 #569696;
+    text-shadow: 0 2px 22px #000000;
+    border: solid #679B9B 0;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+ }
+ 
+ .btn:hover {
+    border: solid #5a8494 3px;
+    background: #709FB0;
+    background-image: -webkit-linear-gradient(top, #709FB0, #276F89);
+    background-image: -moz-linear-gradient(top, #709FB0, #276F89);
+    background-image: -ms-linear-gradient(top, #709FB0, #276F89);
+    background-image: -o-linear-gradient(top, #709FB0, #276F89);
+    background-image: -webkit-gradient(to bottom, #709FB0, #276F89);
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+ }
+ /****************************footer style*****************************/
+ footer{
+    background: #FFB6B6;
+    background-image: -webkit-linear-gradient(top, #FFB6B6, #FDE2E2);
+    background-image: -moz-linear-gradient(top, #FFB6B6, #FDE2E2);
+    background-image: -ms-linear-gradient(top, #FFB6B6, #FDE2E2);
+    background-image: -o-linear-gradient(top, #FFB6B6, #FDE2E2);
+    background-image: -webkit-gradient(to bottom, #FFB6B6, #FDE2E2);
+     padding: 50px;
+     color: #AACFCF;
+ }
+ .footer-link{
+     margin: 30px;
+     text-decoration: none;
+     color: #679B9B;
+     font-size: 14px;
+     font-weight: bold;
+ }
+ .bottom-container p{
+     font-size: 13px;
+     font-weight: bold;
+     margin-top: 30px;
+ }
